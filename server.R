@@ -17,7 +17,6 @@ options(stringsAsFactors = FALSE)
 
 shinyServer(function(input, output) {
 
-
   output$distPlot <- renderPlot({
     
     if (input$log == TRUE){
